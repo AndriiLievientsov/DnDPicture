@@ -1,0 +1,77 @@
+/* =====================================================================
+   «Ледяные драконы» — русская вёрстка Essentials Kit
+   Блок стилей Homebrewery V3, тема 5ePHB. Версия 1.0 (Этап 4)
+   Шрифты: в репозитории DnDPicture/fonts (OFL, Google Fonts):
+     Alegreya (основной текст), Spectral SC (заголовки), Alegreya Sans / Sans SC
+     (статблоки, таблицы, врезки), Oswald (обложки, титулы), Yeseva One (буквица),
+     Pangolin (рукописный текст).
+   Приём: объявляем те же имена семейств, что у темы, но с русскими шрифтами
+   и диапазоном символов {RANGE}. Все правила темы продолжают работать.
+   ===================================================================== */
+
+/* ---------- Основной текст: BookInsanityRemake → Alegreya ---------- */
+@font-face { font-family:'BookInsanityRemake'; font-style:normal; font-weight:normal; src:url('{BASE}ru-body-regular.woff2') format('woff2'); {RANGE} }
+@font-face { font-family:'BookInsanityRemake'; font-style:normal; font-weight:bold;   src:url('{BASE}ru-body-bold.woff2') format('woff2'); {RANGE} }
+@font-face { font-family:'BookInsanityRemake'; font-style:italic; font-weight:normal; src:url('{BASE}ru-body-italic.woff2') format('woff2'); {RANGE} }
+@font-face { font-family:'BookInsanityRemake'; font-style:italic; font-weight:bold;   src:url('{BASE}ru-body-bolditalic.woff2') format('woff2'); {RANGE} }
+
+/* ---------- Статблоки, таблицы, врезки: ScalySans → Alegreya Sans ---------- */
+@font-face { font-family:'ScalySansRemake'; font-style:normal; font-weight:normal; src:url('{BASE}ru-sans-regular.woff2') format('woff2'); {RANGE} }
+@font-face { font-family:'ScalySansRemake'; font-style:normal; font-weight:bold;   src:url('{BASE}ru-sans-bold.woff2') format('woff2'); {RANGE} }
+@font-face { font-family:'ScalySansRemake'; font-style:italic; font-weight:normal; src:url('{BASE}ru-sans-italic.woff2') format('woff2'); {RANGE} }
+@font-face { font-family:'ScalySansRemake'; font-style:italic; font-weight:bold;   src:url('{BASE}ru-sans-bolditalic.woff2') format('woff2'); {RANGE} }
+@font-face { font-family:'ScalySansSmallCapsRemake'; font-style:normal; font-weight:normal; src:url('{BASE}ru-sanssc-medium.woff2') format('woff2'); {RANGE} }
+
+/* ---------- Заголовки: MrEavesRemake → {HEADFONT} ---------- */
+@font-face { font-family:'MrEavesRemake'; font-style:normal; font-weight:normal; src:url('{BASE}{HEADFILE}') format('woff2'); {RANGE} }
+
+/* ---------- Обложки и титулы: Nodesto → Oswald ---------- */
+@font-face { font-family:'NodestoCapsCondensed'; font-style:normal; font-weight:normal; src:url('{BASE}ru-title-regular.woff2') format('woff2'); {RANGE} }
+@font-face { font-family:'NodestoCapsCondensed'; font-style:normal; font-weight:bold;   src:url('{BASE}ru-title-bold.woff2') format('woff2'); {RANGE} }
+@font-face { font-family:'NodestoCapsCondensed'; font-style:italic; font-weight:normal; src:url('{BASE}ru-title-regular.woff2') format('woff2'); {RANGE} }
+@font-face { font-family:'NodestoCapsCondensed'; font-style:italic; font-weight:bold;   src:url('{BASE}ru-title-bold.woff2') format('woff2'); {RANGE} }
+@font-face { font-family:'NodestoCapsWide'; font-style:normal; font-weight:normal; src:url('{BASE}ru-title-regular.woff2') format('woff2'); {RANGE} }
+
+/* ---------- Буквица и рукописный текст ---------- */
+@font-face { font-family:'SolberaImitationRemake'; font-style:normal; font-weight:100 1000; src:url('{BASE}ru-dropcap.woff2') format('woff2'); {RANGE} }
+@font-face { font-family:'WalterTurncoat'; font-style:normal; font-weight:normal; src:url('{BASE}ru-hand.woff2') format('woff2'); {RANGE} }
+
+/* ---------- Типографика для русского текста ---------- */
+.page {
+  hyphens: auto;            /* переносы: в «Свойствах» брю укажите язык ru */
+  -webkit-hyphens: auto;
+  hyphenate-limit-chars: 6 3 3;
+  text-rendering: optimizeLegibility;
+}
+.page :is(h1,h2,h3,h4,h5,h6,th,.monster h2) { hyphens: manual; }
+.page p { text-align: justify; }
+
+/* Буквица: Yeseva One крупнее и плотнее, чем Solbera — подстраиваем */
+.page h1 + p::first-letter,
+.page p.drop-cap::first-letter,
+.page p.first-letter::first-letter {
+  font-size: 2.9cm;
+  line-height: 0.82em;
+  margin-top: -0.05cm;
+  padding-right: 0.08cm;
+}
+
+/* Заголовки: русские слова длиннее — чуть плотнее трекинг */
+.page h1 { letter-spacing: -0.01em; }
+.page h2, .page h3 { letter-spacing: -0.005em; }
+
+/* Цифры: в статблоках, таблицах и врезках — «прописные» (выровненные) */
+.page :is(.monster, table, .note, .descriptive, .toc, .footnote, .pageNumber) { font-variant-numeric: lining-nums; }
+
+/* Статблок: подписи СИЛ ЛОВ… и шапка */
+.page .monster table th { letter-spacing: 0.02em; }
+
+/* Подписи к картам и картинкам */
+.page .ru-caption {
+  font-family: 'ScalySansRemake';
+  font-style: italic;
+  font-size: 0.29cm;
+  color: var(--HB_Color_CaptionText);
+  text-align: center;
+  margin-top: 0.1cm;
+}
