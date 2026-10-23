@@ -1,0 +1,660 @@
+[
+{
+"src": "/home/claude/dndpicture/doip/051_pmap_ru-p76.jpg",
+"dst": "/home/claude/mapout/051.jpg",
+"items": [
+{
+"box": [
+85,
+80,
+362,
+168
+],
+"text": "Аксхольм",
+"style": "doip_title",
+"wfac": 1.04
+},
+{
+"box": [
+1335,
+138,
+1582,
+194
+],
+"text": "Нижние залы",
+"style": "doip_label"
+},
+{
+"box": [
+2640,
+140,
+2838,
+190
+],
+"text": "Верхние залы",
+"style": "doip_label"
+},
+{
+"box": [
+92,
+1706,
+345,
+1766
+],
+"text": "1 клетка = 5 футов",
+"style": "doip_scale",
+"maxw": 278.3
+}
+]
+},
+{
+"src": "/home/claude/dndpicture/doip/052_pmap_ru-p77.jpg",
+"dst": "/home/claude/mapout/052.jpg",
+"items": [
+{
+"box": [
+145,
+125,
+565,
+210
+],
+"text": "Гномгард",
+"style": "doip_title",
+"wfac": 1.04
+},
+{
+"box": [
+100,
+1698,
+350,
+1762
+],
+"text": "1 клетка = 5 футов",
+"style": "doip_scale",
+"maxw": 275.0
+}
+]
+},
+{
+"src": "/home/claude/dndpicture/doip/053_pmap_ru-p78.jpg",
+"dst": "/home/claude/mapout/053.jpg",
+"items": [
+{
+"box": [
+390,
+140,
+1030,
+228
+],
+"text": "Дварфийские раскопки",
+"style": "doip_title",
+"wfac": 1.04
+},
+{
+"box": [
+2285,
+1320,
+2560,
+1385
+],
+"text": "1 клетка = 5 футов",
+"style": "doip_scale",
+"maxw": 302.5
+}
+]
+},
+{
+"src": "/home/claude/dndpicture/doip/054_pmap_ru-p79.jpg",
+"dst": "/home/claude/mapout/054.jpg",
+"items": [
+{
+"box": [
+220,
+135,
+705,
+218
+],
+"text": "Драконий курган",
+"style": "doip_title",
+"wfac": 1.04
+},
+{
+"box": [
+1805,
+212,
+1985,
+262
+],
+"text": "Катакомбы",
+"style": "doip_white"
+},
+{
+"box": [
+715,
+1636,
+935,
+1688
+],
+"text": "Могильный холм",
+"style": "doip_label"
+},
+{
+"box": [
+2515,
+1305,
+2775,
+1365
+],
+"text": "1 клетка = 5 футов",
+"style": "doip_scale",
+"maxw": 286.0
+}
+]
+},
+{
+"src": "/home/claude/dndpicture/doip/055_pmap_ru-p80.jpg",
+"dst": "/home/claude/mapout/055.jpg",
+"items": [
+{
+"box": [
+2225,
+65,
+2790,
+145
+],
+"text": "Круг Грома",
+"style": "doip_title",
+"wfac": 1.04
+}
+]
+},
+{
+"src": "/home/claude/dndpicture/doip/056_pmap_ru-p81.jpg",
+"dst": "/home/claude/mapout/056.jpg",
+"items": [
+{
+"box": [
+95,
+115,
+545,
+200
+],
+"text": "Лагерь лесорубов",
+"style": "doip_title",
+"wfac": 1.04
+},
+{
+"box": [
+2555,
+1700,
+2815,
+1755
+],
+"text": "1 клетка = 5 футов",
+"style": "doip_scale",
+"maxw": 286.0
+}
+]
+},
+{
+"src": "/home/claude/dndpicture/doip/057_pmap_ru-p82.jpg",
+"dst": "/home/claude/mapout/057.jpg",
+"items": [
+{
+"box": [
+2265,
+110,
+2790,
+195
+],
+"text": "Лесная обитель",
+"style": "doip_title",
+"wfac": 1.04
+},
+{
+"box": [
+1905,
+1345,
+2125,
+1400
+],
+"text": "Верхний этаж",
+"style": "doip_label"
+},
+{
+"box": [
+835,
+1515,
+1065,
+1570
+],
+"text": "Нижний этаж",
+"style": "doip_label"
+},
+{
+"box": [
+2465,
+1700,
+2725,
+1755
+],
+"text": "1 клетка = 5 футов",
+"style": "doip_scale",
+"maxw": 286.0
+}
+]
+},
+{
+"src": "/home/claude/dndpicture/doip/058_pmap_ru-p83.jpg",
+"dst": "/home/claude/mapout/058.jpg",
+"items": [
+{
+"box": [
+90,
+85,
+795,
+170
+],
+"text": "Охотничья хижина Сокола",
+"style": "doip_title",
+"wfac": 1.04
+},
+{
+"box": [
+2315,
+375,
+2515,
+425
+],
+"text": "Крыша башни",
+"style": "doip_label"
+},
+{
+"box": [
+2015,
+615,
+2435,
+670
+],
+"text": "Верхний этаж усадьбы",
+"style": "doip_label"
+},
+{
+"box": [
+1715,
+755,
+1965,
+810
+],
+"text": "Крыша сторожки",
+"style": "doip_label"
+},
+{
+"box": [
+1745,
+1435,
+2195,
+1495
+],
+"text": "Верхний этаж конюшни",
+"style": "doip_label"
+},
+{
+"box": [
+2515,
+1698,
+2790,
+1757
+],
+"text": "1 клетка = 5 футов",
+"style": "doip_scale",
+"maxw": 302.5
+}
+]
+},
+{
+"src": "/home/claude/dndpicture/doip/059_pmap_ru-p84.jpg",
+"dst": "/home/claude/mapout/059.jpg",
+"items": [
+{
+"box": [
+115,
+105,
+705,
+190
+],
+"text": "Ранчо Масляных Черепов",
+"style": "doip_title",
+"wfac": 1.04
+},
+{
+"box": [
+1785,
+120,
+2255,
+170
+],
+"text": "Верхний этаж фермы",
+"style": "doip_label",
+"align": "left"
+},
+{
+"box": [
+1785,
+685,
+2225,
+735
+],
+"text": "Нижний этаж фермы",
+"style": "doip_label",
+"align": "left"
+},
+{
+"box": [
+2425,
+748,
+2515,
+800
+],
+"text": "Колодец",
+"style": "doip_scale_dark",
+"maxw": 150,
+"size": 30,
+"xy": [
+2490,
+774
+]
+},
+{
+"box": [
+1785,
+1650,
+1915,
+1705
+],
+"text": "Погреб",
+"style": "doip_label",
+"align": "left"
+},
+{
+"box": [
+85,
+1700,
+345,
+1755
+],
+"text": "1 клетка = 5 футов",
+"style": "doip_scale",
+"maxw": 286.0
+},
+{
+"box": [
+2515,
+1700,
+2785,
+1755
+],
+"text": "1 клетка = 5 футов",
+"style": "doip_scale",
+"maxw": 297.0
+}
+]
+},
+{
+"src": "/home/claude/dndpicture/doip/060_pmap_ru-p85.jpg",
+"dst": "/home/claude/mapout/060.jpg",
+"items": [
+{
+"box": [
+100,
+95,
+875,
+185
+],
+"text": "Рудник Золотая Пята",
+"style": "doip_title",
+"wfac": 1.04
+},
+{
+"box": [
+2305,
+1715,
+2575,
+1775
+],
+"text": "1 клетка = 5 футов",
+"style": "doip_scale",
+"maxw": 297.0
+}
+]
+},
+{
+"src": "/home/claude/dndpicture/doip/061_pmap_ru-p86.jpg",
+"dst": "/home/claude/mapout/061.jpg",
+"items": [
+{
+"box": [
+95,
+85,
+605,
+170
+],
+"text": "Святилище Савраса",
+"style": "doip_title",
+"wfac": 1.04
+},
+{
+"box": [
+2498,
+1068,
+2742,
+1172
+],
+"text": "Колокольня и\nкрыша святилища",
+"style": "doip_label",
+"xy": [
+2618,
+1121
+],
+"size": 44,
+"maxw": 290
+},
+{
+"box": [
+2495,
+1700,
+2765,
+1755
+],
+"text": "1 клетка = 5 футов",
+"style": "doip_scale",
+"maxw": 297.0
+}
+]
+},
+{
+"src": "/home/claude/dndpicture/doip/062_pmap_ru-p87.jpg",
+"dst": "/home/claude/mapout/062.jpg",
+"items": [
+{
+"box": [
+115,
+120,
+535,
+205
+],
+"text": "Форт Ледяного Пика",
+"style": "doip_title",
+"wfac": 1.04
+},
+{
+"box": [
+268,
+588,
+655,
+668
+],
+"text": "Главный этаж крепости",
+"style": "doip_label"
+},
+{
+"box": [
+2265,
+865,
+2555,
+920
+],
+"text": "Крыша крепости",
+"style": "doip_label"
+},
+{
+"box": [
+75,
+1260,
+355,
+1310
+],
+"text": "Ледяной пик",
+"style": "doip_label"
+},
+{
+"box": [
+1575,
+1425,
+1785,
+1480
+],
+"text": "Сторожка врат",
+"style": "doip_label"
+},
+{
+"box": [
+2565,
+1560,
+2795,
+1615
+],
+"text": "Склепы",
+"style": "doip_white"
+},
+{
+"box": [
+95,
+1725,
+355,
+1780
+],
+"text": "1 клетка = 5 футов",
+"style": "doip_scale",
+"maxw": 286.0
+}
+]
+},
+{
+"src": "/home/claude/dndpicture/doip/063_pmap_ru-p88.jpg",
+"dst": "/home/claude/mapout/063.jpg",
+"items": [
+{
+"box": [
+115,
+110,
+545,
+195
+],
+"text": "Холм Раздора",
+"style": "doip_title",
+"wfac": 1.04
+},
+{
+"box": [
+1695,
+480,
+1965,
+580
+],
+"text": "Второй этаж\nмельницы",
+"style": "doip_label"
+},
+{
+"box": [
+2175,
+480,
+2445,
+580
+],
+"text": "Третий этаж\nмельницы",
+"style": "doip_label"
+},
+{
+"box": [
+95,
+1700,
+355,
+1755
+],
+"text": "1 клетка = 5 футов",
+"style": "doip_scale",
+"maxw": 286.0
+}
+]
+},
+{
+"src": "/home/claude/dndpicture/doip/064_pmap_ru-p89.jpg",
+"dst": "/home/claude/mapout/064.jpg",
+"items": [
+{
+"box": [
+65,
+80,
+565,
+165
+],
+"text": "Штормовая башня",
+"style": "doip_title",
+"wfac": 1.04
+},
+{
+"box": [
+2115,
+540,
+2295,
+595
+],
+"text": "Маяк",
+"style": "doip_label"
+},
+{
+"box": [
+1545,
+730,
+1765,
+785
+],
+"text": "Верхний уровень",
+"style": "doip_label"
+},
+{
+"box": [
+2635,
+1350,
+2785,
+1400
+],
+"text": "Вверх, на утёс",
+"style": "doip_scale",
+"maxw": 165.0
+},
+{
+"box": [
+88,
+1693,
+380,
+1752
+],
+"text": "1 клетка = 5 футов",
+"style": "doip_scale",
+"maxw": 321.20000000000005
+}
+]
+}
+]

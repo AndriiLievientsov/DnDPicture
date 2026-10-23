@@ -1,0 +1,5 @@
+{"src":"/home/claude/dndpicture/doip/051_pmap_ru-p76.jpg","dst":"/home/claude/mapout/051.jpg","items":[
+ {"box":[85,80,362,168],"text":"Аксхольм","style":"doip_title"},
+ {"box":[1335,138,1582,194],"text":"Нижние залы","style":"doip_label"},
+ {"box":[2640,140,2838,190],"text":"Верхние залы","style":"doip_label","maxw":230,"xy":[2725,165]},
+ {"box":[92,1706,345,1766],"text":"1 клетка = 5 футов","style":"doip_scale","maxw":260,"xy":[225,1736]}]}
